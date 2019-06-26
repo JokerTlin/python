@@ -82,6 +82,14 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple sqlalchemy
 
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple traceback
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple matplotlib 
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple threading
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple itertools
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple multiprocessing
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple json
+
 msgGreen "安装完毕"
 
 
