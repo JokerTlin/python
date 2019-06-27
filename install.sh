@@ -74,6 +74,7 @@ source venv/bin/activate
 pip3 install --upgrade pip
 
 yum remove python-setuptools
+
 pip3 install setuptools==41.0.0
 
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
@@ -85,7 +86,6 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple keras
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple sqlalchemy
-
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple traceback
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple matplotlib 
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple threading
