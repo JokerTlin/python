@@ -72,6 +72,10 @@ virtualenv -p /usr/bin/python3 venv
 source venv/bin/activate
 
 pip3 install --upgrade pip
+
+yum remove python-setuptools
+pip3 install setuptools==41.0.0
+
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pymysql
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
